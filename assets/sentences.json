@@ -1,0 +1,58 @@
+[
+  {
+    "id": "abstract-0",
+    "role": "배경 · 개념 정의",
+    "text": "An ad hoc grid is a wireless heterogeneous computing environment without a fixed infrastructure.",
+    "note": "핵심 개념을 정의하며 연구의 배경을 엽니다.",
+    "phrase": "X is a … environment",
+    "meaning": "X는 … 환경이다. 개념을 처음 소개할 때 쓰는 정의 문형입니다."
+  },
+  {
+    "id": "abstract-1",
+    "role": "범위 · 연구 대상",
+    "text": "This study considers wireless devices that have different capabilities, have limited battery capacity, support dynamic voltage scaling, and are expected to be used for eight hours at a time and then recharged.",
+    "note": "어떤 조건의 장치를 다루는지 연구 범위를 한정합니다.",
+    "phrase": "This study considers …",
+    "meaning": "본 연구는 …을 다룬다. 관계절 that 뒤에 대상의 조건을 나열합니다."
+  },
+  {
+    "id": "abstract-2",
+    "role": "필요성 · 문제 제기",
+    "text": "To maximize the performance of the system, it is essential to assign resources to tasks (match) and order the execution of tasks on each resource (schedule) in a manner that exploits the heterogeneity of the resources and tasks while considering the energy constraints of the devices.",
+    "note": "성능 목표와 이를 위해 필요한 자원 할당을 연결합니다.",
+    "phrase": "To maximize …, it is essential to …",
+    "meaning": "…을 극대화하기 위해 …하는 것이 필수적이다. 목적과 필요성을 함께 제시합니다."
+  },
+  {
+    "id": "abstract-3",
+    "role": "조건 · 문제 설정",
+    "text": "In the single-hop ad hoc grid heterogeneous environment considered in this study, tasks arrive unpredictably, are independent (i.e., no precedent constraints for tasks) and have priorities and deadlines.",
+    "note": "태스크의 도착 방식과 제약 조건을 명시합니다.",
+    "phrase": "In the … environment considered in this study, …",
+    "meaning": "본 연구에서 고려하는 … 환경에서, …하다. 연구 조건을 문장 앞에 배치합니다."
+  },
+  {
+    "id": "abstract-4",
+    "role": "목표 · 최적화 문제",
+    "text": "The problem is to map (match and schedule) tasks onto devices such that the number of highest priority tasks completed by their deadlines during eight hours is maximized while efficiently utilizing the overall system energy.",
+    "note": "무엇을 최대화하며 어떤 자원을 고려하는지 밝힙니다.",
+    "phrase": "The problem is to … such that …",
+    "meaning": "문제는 …하도록 …하는 것이다. such that 뒤에서 목표 조건을 구체화합니다."
+  },
+  {
+    "id": "abstract-5",
+    "role": "방법 · 모델 제안",
+    "text": "A model for dynamically mapping tasks onto wireless devices is introduced.",
+    "note": "앞서 설명한 문제를 해결할 모델을 소개합니다.",
+    "phrase": "A model for … is introduced.",
+    "meaning": "…을 위한 모델을 제안한다. 수동태로 제안하는 대상에 초점을 둡니다."
+  },
+  {
+    "id": "abstract-6",
+    "role": "평가 · 방법 비교",
+    "text": "Seven dynamic mapping heuristics for this environment are designed and compared to each other and to a mathematical bound.",
+    "note": "제안한 기법의 수와 비교 기준을 요약합니다.",
+    "phrase": "… are designed and compared to …",
+    "meaning": "…을 설계하고 …과 비교한다. 방법 제안과 평가를 한 문장으로 연결합니다."
+  }
+]
